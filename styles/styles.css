@@ -1,0 +1,59 @@
+.btn {
+  padding: 15px;
+  margin: 10px 0 10px;
+}
+
+#restaurants ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+#restaurants ul li {
+  flex: 45%;
+  box-shadow: 0 2px 12px #d2d2d2;
+  border-radius: 15px;
+  width: 100%;
+  margin: 0 10px 15px 10px;
+}
+#restaurants ul li a {
+  display: block;
+  padding: 15px;
+}
+
+header {
+  margin: 15px 0 15px;
+}
+
+section#localisation #city {
+  background-color: #F3F3F3;
+}
+section#localisation #explore {
+  background-color: #f6f6f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #000000;
+}
+
+body {
+  width: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+h2 {
+  padding: 15px 0 15px;
+  font-size: 21px;
+}
+
+p {
+  color: #000000;
+  padding: 15px 0 15px;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=styles.css.map */

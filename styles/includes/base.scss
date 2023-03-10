@@ -1,0 +1,23 @@
+#features{
+}
+
+#restaurants{
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+    li{
+      flex: 45%;
+      box-shadow: 0 2px 12px #d2d2d2;
+      border-radius: 15px;
+      width: 100%;
+      margin: 0 10px 15px 10px;
+
+      a{
+        display: block;
+        padding: 15px;
+      }
+    }
+  }
+}
