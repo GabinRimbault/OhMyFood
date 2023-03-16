@@ -1,23 +1,39 @@
 #features{
+  margin-top: 30px;
+
+  ul{
+    flex-direction: column;
+
+    li{
+      background-color: $color-11;
+      width: inherit;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 10px 20px;
+
+      h4{
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+        background-color: $color-01;
+        padding: 5px 0 0;
+        color: $color-w;
+        margin-left: -8px;
+      }
+
+      i{
+        margin-left: 25px;
+      }
+
+      a{
+        margin-left: 20px;
+        font-size: 15px;
+      }
+
+    }
+  }
 }
 
 #restaurants{
-  ul{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-
-    li{
-      flex: 45%;
-      box-shadow: 0 2px 12px #d2d2d2;
-      border-radius: 15px;
-      width: 100%;
-      margin: 0 10px 15px 10px;
-
-      a{
-        display: block;
-        padding: 15px;
-      }
-    }
-  }
 }

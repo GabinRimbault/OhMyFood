@@ -1,14 +1,22 @@
 header{
   margin: 15px 0 15px;
+
+  img{
+    width: 50%;
+  }
 }
 
 section#localisation{
 
   #city{
+    margin: 0;
     background-color: $color-10;
+    padding: 15px;
   }
 
   #explore{
+    margin: 0;
     background-color: $color-11;
+    padding: 15px;
   }
 }

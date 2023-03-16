@@ -2,3 +2,12 @@
   padding: 15px;
   margin: 10px 0 10px;
 }
+
+.btn_custom{
+  border-radius: 30px;
+  background: linear-gradient($color-02, $color-01);
+  box-shadow: 2px 2px 7px $color-f;
+  color: $color-w;
+  border: none;
+  font-weight: bold;
+}
