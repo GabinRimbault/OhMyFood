@@ -1,0 +1,51 @@
+#menu{
+  margin-top: -70px;
+  background-color: $color-11;
+  z-index: 2;
+  position: relative;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-bottom: 20px;
+
+  h1{
+    padding: 20px 0;
+  }
+
+  h3{
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding: 0 20px;
+
+    &:after{
+      display: block;
+      content: "";
+      background-color: #99E2D0;
+      margin-top: 5px;
+      height: 3px;
+      width: 40px;
+    }
+  }
+
+  ul{
+    margin-bottom: 15px;
+    overflow: hidden;
+
+    li{
+      background-color: $color-w;
+      width: 88%;
+      animation: 1.5s slide-up;
+      margin-top: 10px;
+    }
+  }
+
+  .content_menu{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .information{
+    display: flex;
+    justify-content: space-between;
+  }
+}

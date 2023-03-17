@@ -5,8 +5,13 @@
     padding-top: 20px;
   }
 
+
+}
+
+ul.card{
   li{
-    height: 260px;
+    max-height: 260px;
+    height: auto;
     border-radius: 20px;
     margin: 10px 20px;
     box-shadow: 2px 2px 7px #d3d3d3;
@@ -17,7 +22,7 @@
     }
 
     p{
-      margin: 0 15px;
+      margin: 0 15px 15px;
 
       &.new{
         background-color: #99E2D0;
@@ -35,7 +40,24 @@
       position: absolute;
       right: 15px;
       bottom: 40px;
+
+      &:hover{
+        animation-name: fill;
+        animation-duration: 2s; /* Durée de l'animation */
+        animation-fill-mode: forwards;
+      }
+
+      @keyframes fill {
+        from {
+          background-color: white; /* Couleur de remplissage initiale */
+        }
+        to {
+          background-color: red; /* Couleur de remplissage finale */
+          border-radius: 100%;
+        }
+      }
     }
+
   }
 
   a{

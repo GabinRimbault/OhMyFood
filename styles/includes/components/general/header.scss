@@ -1,0 +1,43 @@
+header{
+  position: sticky;
+  top: 0;
+  background: $color-w;
+  height: 65px;
+  box-shadow: 0 2px 4px $color-h;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+
+  img{
+    width: 50%;
+  }
+
+  a{
+    float: left;
+    display: block;
+    position: relative;
+    left: -50px;
+
+    i{
+      font-size: 20px;
+    }
+  }
+}
+
+#localisation{
+
+  margin: 0 0 20px 0;
+
+  #city{
+    margin: 0;
+    background-color: $color-10;
+    padding: 15px;
+  }
+
+  #explore{
+    margin: 0;
+    background-color: $color-11;
+    padding: 15px;
+  }
+}

@@ -1,12 +1,15 @@
 @import "includes/variables";
-@import "includes/btn";
+@import "./animation";
+@import "includes/components/general/btn";
 @import "includes/base";
-@import "includes/header";
-@import "includes/footer";
-@import "includes/title";
-@import "includes/text";
-@import "includes/list";
+@import "includes/components/general/header";
+@import "includes/components/general/footer";
+@import "includes/components/general/title";
+@import "includes/components/general/text";
+@import "includes/components/general/list";
 @import "includes/components/card";
+@import "includes/components/restaurant";
+@import "includes/components/menu";
 
 * {
   margin: 0;
